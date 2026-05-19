@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+}
+
+
+.card-produto{
+    width: 320px;
+
+    padding: 20px;
+
+    margin: 20px auto;
+
+    border: 2px solid gray;
+    border-radius: 8px;
+
+    background-color: white;
+
+    text-align: center;
+}
+
+
+.card-promocao{
+    width: 320px;
+
+    padding: 30px;
+
+    margin: -10px auto 20px auto;
+
+    border: 4px dashed orange;
+    border-radius: 8px;
+
+    background-color: lightyellow;
+
+    text-align: center;
+}
+
+
+.preço{
+    display: block;
+
+    margin: 15px 0;
+
+    font-size: 22px;
+    font-weight: bold;
+
+    color: red; 
+}
+
+
+button{
+    padding: 10px 15px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: orangered ;
+    color: white;
+
+    cursor: pointer;
+}
+
+
+button:hover{
+    background-color: darkred; 
+}
